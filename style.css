@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+ }
+ 
+ body{
+     font-family: 'Inter', sans-serif;
+     background-color: rgb(32,33,36);
+     box-sizing: border-box;
+ }
+ 
+.navBar{
+     /* background-color: aqua; */
+     background: linear-gradient(90deg,rgb(236, 75, 164), rgb(255, 0, 149));
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* justify-content: center; */
+     padding: 10px 0px 0px 0px;
+     font-size: 1rem;
+}
+ 
+.navBar h1{
+     letter-spacing: 0.1rem;
+     margin: 0px 0px 5px 0px;
+}
+
+.navBar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navitem{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 1px ;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32,33,36);
+    
+    transition: all 0.2s ease;
+    
+}
+
+.navitem:nth-child(1){
+    border-radius: 20px 0px 0px 0px ;
+}
+
+.navitem:nth-child(2){
+    border-radius: 0px 0px 0px 0px ;
+}
+
+.navitem:nth-child(3){ 
+    border-radius: 0px 20px 0px 0px ;
+}
+
+.navitem a{
+    display: block;
+    padding: 5px;
+    color: rgb(236, 75, 164);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.navitem:last-child{
+    border-right: none;
+}
+
+.navitem:hover{
+    background-color: rgba(32, 33, 36, 0.384);
+    color: white;
+    
+} 
+
+.navBar a:hover{
+    color: white;
+    
+} 
+
+
+.maincenter{
+    display: flex;
+    justify-content: center;
+    align-items:  center; 
+}
+.gameinput{
+    margin: 10px 0px 10px 30px;
+    padding: 11.9px 15px;      
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+
+}
+
+
+button{
+    margin: 10px;
+    padding: 9px 15px;      
+    border: 2px solid rgb(255, 0, 149);
+    background-color: rgba(255, 0, 149, 0);
+    border-radius: 2px;
+    outline: none;
+    color: rgb(255, 0, 149);
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+button:hover{
+    border: 2px solid rgb(255, 0, 149);
+    background-color: rgb(255, 0, 149);
+    color: white;
+}
+
+.supercontainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+   height: 90px;
+   width: 90px;
+   margin: 2px;
+   display: flex;
+   justify-content: center;
+   align-items:  center;
+   font-size: 30px;
+   color:  rgb(32,33,36);;
+   cursor: pointer;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+.container:hover{
+   background-color: rgb(233, 233, 233);
+}
+
+.result{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.timer{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    width: 100px;
+}
+
+
+.result-data{
+    border-radius: 9px;
+    display: inline-block;
+    background-color:rgb(236, 75, 164) ;
+    text-align: center;
+    padding: 10px 40px;
+    color: white;
+    margin: 10px;
+}
+
+.result-data-info{
+    display: none;
+}
+
+
+.about{
+    color: white;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.about h1{
+    padding: 10px;
+}
+
+.about p{
+    padding: 10px;
+}
+ 
