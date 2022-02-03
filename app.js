@@ -90,7 +90,7 @@ function game() {
                 num++;
 
             }
-            else if (num != e.innerText) {
+            else if (num != e.innerText  && e.style.backgroundColor != "rgb(1, 104, 1)") {
                 e.style.backgroundColor = "rgb(190, 0, 0)"
 
                 setTimeout(() => {
